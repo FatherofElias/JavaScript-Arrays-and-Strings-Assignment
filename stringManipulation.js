@@ -17,3 +17,9 @@ console.log(upperCaseText);
 let lowerCaseText = text.toLowerCase();
 console.log(lowerCaseText); 
 
+// Task 3
+let sentence = "The quick brown fox jumps over the lazy dog";
+
+// Using substring method to extract part of the string
+let partOfSentence = sentence.substring(4, 9);
+console.log(partOfSentence); 
